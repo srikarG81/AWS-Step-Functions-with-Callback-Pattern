@@ -1,0 +1,17 @@
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AsyncLambda.deps.json
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AsyncLambda.runtimeconfig.json
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AsyncLambda.runtimeconfig.dev.json
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AsyncLambda.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AsyncLambda.pdb
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Core.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.csprojAssemblyReference.cache
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.AssemblyInfoInputs.cache
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.AssemblyInfo.cs
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.csproj.CopyComplete
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.pdb
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\obj\Debug\netcoreapp3.1\AsyncLambda.genruntimeconfig.cache
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\AWSSDK.StepFunctions.dll
+D:\AWS Labs\projects\StepfunctionAsync\AsyncLambda\AsyncLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.APIGatewayEvents.dll

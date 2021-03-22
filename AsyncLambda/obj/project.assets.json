@@ -1,0 +1,359 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Amazon.Lambda.APIGatewayEvents/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.5.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.5.4.37": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.8, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
+        }
+      },
+      "AWSSDK.StepFunctions/3.5.3.36": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.8, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll": {}
+        }
+      }
+    },
+    ".NETCoreApp,Version=v3.1/linux-x64": {
+      "Amazon.Lambda.APIGatewayEvents/2.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.5.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.5.4.37": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.8, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
+        }
+      },
+      "AWSSDK.StepFunctions/3.5.3.36": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.3.8, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.APIGatewayEvents/2.4.0": {
+      "sha512": "QDDGZq2RwY4BBn2ai/dLLCdeHZBp1cSwqrjAe/m371z6Sv6pza8ZsVnZYxE+Dqmhh4UF0uZ6t520tVqOYcEzzQ==",
+      "type": "package",
+      "path": "amazon.lambda.apigatewayevents/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+        "amazon.lambda.apigatewayevents.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.APIGatewayEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.APIGatewayEvents.xml"
+      ]
+    },
+    "Amazon.Lambda.Core/1.2.0": {
+      "sha512": "goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+      "type": "package",
+      "path": "amazon.lambda.core/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.core.1.2.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/netstandard1.3/Amazon.Lambda.Core.dll",
+        "lib/netstandard1.3/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "sha512": "q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "AWSSDK.Core/3.5.3.8": {
+      "sha512": "qF5cq1RuE2GD6EQu0Bef1I06yzVTwSlW0FBxMXT1bGd+dF0Rcoa0grH7P6KbRp9HyIzWPOEdlMIx0yX1puTFCA==",
+      "type": "package",
+      "path": "awssdk.core/3.5.3.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.5.3.8.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.DynamoDBv2/3.5.4.37": {
+      "sha512": "zlO+QxOQ7PHEzCMNm/ZoyYnxCTawYAX93XSQb4bFyy6aHeqaiKJD8XpN7VY2+V/XuGhiS0Z8OjezBI/SGXmbng==",
+      "type": "package",
+      "path": "awssdk.dynamodbv2/3.5.4.37",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.DynamoDBv2.CodeAnalysis.dll",
+        "awssdk.dynamodbv2.3.5.4.37.nupkg.sha512",
+        "awssdk.dynamodbv2.nuspec",
+        "lib/net35/AWSSDK.DynamoDBv2.dll",
+        "lib/net35/AWSSDK.DynamoDBv2.pdb",
+        "lib/net35/AWSSDK.DynamoDBv2.xml",
+        "lib/net45/AWSSDK.DynamoDBv2.dll",
+        "lib/net45/AWSSDK.DynamoDBv2.pdb",
+        "lib/net45/AWSSDK.DynamoDBv2.xml",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.pdb",
+        "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.xml",
+        "lib/netstandard1.3/AWSSDK.DynamoDBv2.dll",
+        "lib/netstandard1.3/AWSSDK.DynamoDBv2.pdb",
+        "lib/netstandard1.3/AWSSDK.DynamoDBv2.xml",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.pdb",
+        "lib/netstandard2.0/AWSSDK.DynamoDBv2.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.StepFunctions/3.5.3.36": {
+      "sha512": "E7DXlcsa90ArIFZeUKly1iEqsxEXMgGQ2m5kRcwHK4+zmA/fbXlVfsXvxglIn88GP/+sZNSv+e3oM6kJXBQUpg==",
+      "type": "package",
+      "path": "awssdk.stepfunctions/3.5.3.36",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.StepFunctions.CodeAnalysis.dll",
+        "awssdk.stepfunctions.3.5.3.36.nupkg.sha512",
+        "awssdk.stepfunctions.nuspec",
+        "lib/net35/AWSSDK.StepFunctions.dll",
+        "lib/net35/AWSSDK.StepFunctions.pdb",
+        "lib/net35/AWSSDK.StepFunctions.xml",
+        "lib/net45/AWSSDK.StepFunctions.dll",
+        "lib/net45/AWSSDK.StepFunctions.pdb",
+        "lib/net45/AWSSDK.StepFunctions.xml",
+        "lib/netcoreapp3.1/AWSSDK.StepFunctions.dll",
+        "lib/netcoreapp3.1/AWSSDK.StepFunctions.pdb",
+        "lib/netcoreapp3.1/AWSSDK.StepFunctions.xml",
+        "lib/netstandard1.3/AWSSDK.StepFunctions.dll",
+        "lib/netstandard1.3/AWSSDK.StepFunctions.pdb",
+        "lib/netstandard1.3/AWSSDK.StepFunctions.xml",
+        "lib/netstandard2.0/AWSSDK.StepFunctions.dll",
+        "lib/netstandard2.0/AWSSDK.StepFunctions.pdb",
+        "lib/netstandard2.0/AWSSDK.StepFunctions.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.DynamoDBv2 >= 3.5.4.37",
+      "AWSSDK.StepFunctions >= 3.5.3.36",
+      "Amazon.Lambda.APIGatewayEvents >= 2.4.0",
+      "Amazon.Lambda.Core >= 1.2.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\611363150\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\AWS Labs\\projects\\StepfunctionAsync\\AsyncLambda\\AsyncLambda\\AsyncLambda.csproj",
+      "projectName": "AsyncLambda",
+      "projectPath": "D:\\AWS Labs\\projects\\StepfunctionAsync\\AsyncLambda\\AsyncLambda\\AsyncLambda.csproj",
+      "packagesPath": "C:\\Users\\611363150\\.nuget\\packages\\",
+      "outputPath": "D:\\AWS Labs\\projects\\StepfunctionAsync\\AsyncLambda\\AsyncLambda\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\611363150\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": {
+            "target": "Package",
+            "version": "[3.5.4.37, )"
+          },
+          "AWSSDK.StepFunctions": {
+            "target": "Package",
+            "version": "[3.5.3.36, )"
+          },
+          "Amazon.Lambda.APIGatewayEvents": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
+      }
+    }
+  }
+}

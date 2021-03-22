@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1weBt21J5hitW9XUkqK4RnUdOHmg8js0x3803MHVm5CuBQqWEW6bj/3cVF5BY5l7HNKVML/S350WwRkaiawArg==",
+  "success": true,
+  "projectFilePath": "D:\\AWS Labs\\projects\\StepfunctionAsync\\AsyncLambda\\AsyncLambda\\AsyncLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\611363150\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\611363150\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\611363150\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\611363150\\.nuget\\packages\\awssdk.core\\3.5.3.8\\awssdk.core.3.5.3.8.nupkg.sha512",
+    "C:\\Users\\611363150\\.nuget\\packages\\awssdk.dynamodbv2\\3.5.4.37\\awssdk.dynamodbv2.3.5.4.37.nupkg.sha512",
+    "C:\\Users\\611363150\\.nuget\\packages\\awssdk.stepfunctions\\3.5.3.36\\awssdk.stepfunctions.3.5.3.36.nupkg.sha512"
+  ],
+  "logs": []
+}
