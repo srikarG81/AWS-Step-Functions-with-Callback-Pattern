@@ -1,0 +1,11 @@
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\OrderOrchestration.deps.json
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\OrderOrchestration.runtimeconfig.json
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\OrderOrchestration.runtimeconfig.dev.json
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\OrderOrchestration.dll
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\Amazon.Lambda.Core.dll
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\bin\Debug\netcoreapp3.1\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\obj\Debug\netcoreapp3.1\OrderOrchestration.csprojAssemblyReference.cache
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\obj\Debug\netcoreapp3.1\OrderOrchestration.AssemblyInfoInputs.cache
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\obj\Debug\netcoreapp3.1\OrderOrchestration.AssemblyInfo.cs
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\obj\Debug\netcoreapp3.1\OrderOrchestration.csproj.CopyComplete
+D:\AWS Labs\projects\StepfunctionAsync\StepfunctionAsync\OrderOrchestration\obj\Debug\netcoreapp3.1\OrderOrchestration.genruntimeconfig.cache

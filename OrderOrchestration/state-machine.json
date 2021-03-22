@@ -1,0 +1,104 @@
+{
+  "Comment": "State Machine",
+  "StartAt": "Validate Order",
+  "States": {
+    "Validate Order": {
+      "Type": "Task",
+      "Resource": "${ValidateOrderTask.Arn}",
+      "Next": "Is the order valid?"
+    },
+
+
+    "Is the order valid?": {
+      "Comment": "A Choice state adds branching logic to a state machine. Choice rules can implement 16 different comparison operators, and can be combined using And, Or, and Not",
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.IsOrderValid",
+          "BooleanEquals": true,
+          "Next": "Validate Cost"
+        },
+        {
+          "Variable": "$.IsOrderValid",
+          "BooleanEquals": false,
+          "Next": "FailState"
+        }
+      ],
+      "Default": "FailState"
+    },
+
+
+    "Validate Cost": {
+      "Type": "Task",
+      "Resource": "${ValidateCostTask.Arn}",
+      "Next": "Is the order auto-approved?"
+    },
+
+    "Is the order auto-approved?": {
+      "Comment": "A Choice state adds branching logic to a state machine. Choice rules can implement 16 different comparison operators, and can be combined using And, Or, and Not",
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.IsApprovalRequired",
+          "BooleanEquals": true,
+          "Next": "WaitForApproval"
+        },
+        {
+          "Variable": "$.IsApprovalRequired",
+          "BooleanEquals": false,
+          "Next": "Process the Order"
+        }
+      ],
+      "Default": "Process the Order"
+    },
+
+    "WaitForApproval": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke.waitForTaskToken",
+      "Parameters": {
+        "FunctionName": "${WaitForApprovalTask.Arn}",
+        "Payload": {
+          "OrderID.$": "$.OrderID",
+          "Cost.$": "$.Cost",
+          "Token.$": "$$.Task.Token"
+        }
+
+      },
+      "Next": "Is the order approved?"
+
+    },
+
+
+    "Is the order approved?": {
+      "Comment": "A Choice state adds branching logic to a state machine. Choice rules can implement 16 different comparison operators, and can be combined using And, Or, and Not",
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.IsApproved",
+          "BooleanEquals": true,
+          "Next": "Process the Order"
+        },
+        {
+          "Variable": "$.IsApproved",
+          "BooleanEquals": false,
+          "Next": "FailState"
+        }
+      ],
+      "Default": "FailState"
+    },
+
+
+    "Process the Order": {
+      "Type": "Task",
+      "Resource": "${ProcessOrderTask.Arn}",
+      "End": true
+    },
+
+
+    "FailState": {
+      "Type": "Fail",
+      "Cause": "Invalid order.",
+      "Error": "ErrorA"
+    }
+  }
+}

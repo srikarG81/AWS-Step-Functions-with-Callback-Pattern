@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OrderOrchestration/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0"
+        },
+        "runtime": {
+          "OrderOrchestration.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderOrchestration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+      "path": "amazon.lambda.core/1.2.0",
+      "hashPath": "amazon.lambda.core.1.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
+    }
+  }
+}
