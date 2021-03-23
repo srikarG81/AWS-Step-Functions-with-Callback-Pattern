@@ -57,7 +57,10 @@ namespace OrderOrchestration
         {
             var isValid = false;
             order.IsOrderValid = isValid = order.OrderItems.Count > 0 && order.Cost > 0;
-            SaveOrder(order);
+            if (isValid)
+            {
+                SaveOrder(order);
+            }
             return order;
         }
 
