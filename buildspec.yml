@@ -19,10 +19,11 @@ phases:
       - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID_PARAM
       - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY_PARAM
       - echo $CODEBUILD_SRC_DIR
-      - cd ..
+      - cd +4
+      - dir
       - mkdir src
       - dir
-      - cp -R ./AWS-Step-Functions-with-Callback-Pattern/. src
+      - cp -R ./src/github.com/srikarG81/AWS-Step-Functions-with-Callback-Pattern/. src
       - cd src
       - dir
       - dotnet clean  StepfunctionAsync.sln
