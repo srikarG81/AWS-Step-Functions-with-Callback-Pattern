@@ -21,7 +21,7 @@ phases:
       - echo $CODEBUILD_SRC_DIR
       - mkdir src
       - dir
-      - cp -R  ./AWS-Step-Functions-with-Callback-Pattern src
+      - COPY ./AWS-Step-Functions-with-Callback-Pattern src
       - cd src
       - dotnet clean  StepfunctionAsync.sln
       - dotnet restore StepfunctionAsync.sln
