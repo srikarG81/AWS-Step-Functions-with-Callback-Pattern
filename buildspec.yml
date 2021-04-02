@@ -22,8 +22,9 @@ phases:
       - cd ..
       - mkdir src
       - dir
-      - cp -R ./AWS-Step-Functions-with-Callback-Pattern src
+      - cp -R ./AWS-Step-Functions-with-Callback-Pattern/. src
       - cd src
+      - dir
       - dotnet clean  StepfunctionAsync.sln
       - dotnet restore StepfunctionAsync.sln
       - dotnet clean  AsyncLambda.sln
