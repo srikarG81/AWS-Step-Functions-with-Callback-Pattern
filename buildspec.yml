@@ -27,10 +27,6 @@ phases:
       - cp -R ./src/github.com/srikarG81/AWS-Step-Functions-with-Callback-Pattern/. src
       - cd src
       - dir
-      - dotnet clean  AsyncLambda.sln
-      - dotnet restore AsyncLambda.sln
-      - dotnet clean  StepfunctionAsync.sln
-      - dotnet restore StepfunctionAsync.sln
       
   build:
     commands:
