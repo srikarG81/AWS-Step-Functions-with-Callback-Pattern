@@ -24,8 +24,6 @@ phases:
       - cd ..
       - cd ..
       - dir
-      - mkdir src
-      - dir
       - cp -R ./src/github.com/srikarG81/AWS-Step-Functions-with-Callback-Pattern/. src
       - cd src
       - dir
