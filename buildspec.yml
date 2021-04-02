@@ -18,8 +18,10 @@ phases:
       - aws configure set region  eu-west-2
       - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID_PARAM
       - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY_PARAM
-      - dotnet clean 
-      - dotnet restore
+      - dotnet clean  StepfunctionAsync.sln
+      - dotnet restore StepfunctionAsync.sln
+      - dotnet clean  AsyncLambda.sln
+      - dotnet restore AsyncLambda.sln
   build:
     commands:
       - echo Build started on `date`
