@@ -18,7 +18,7 @@ phases:
       - aws configure set region  eu-west-2
       - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID_PARAM
       - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY_PARAM
-      - cd..
+      - echo $CODEBUILD_SRC_DIR
       - mkdir src
       - dir
       - cp -R  ./AWS-Step-Functions-with-Callback-Pattern src
